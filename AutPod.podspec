@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 "Making a private collection of the pods so that if for bad day on the earth, anytime in future the open source projects goes down, I will always have a copy of the project dependencies."
                        DESC
 
-  s.homepage         = 'https://github.com/sourabhardwaj/AutPod'
+  s.homepage         = 'https://github.com/sourabhardwaj/Pod4Pods'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Sourabh Bhardwaj' => 'ssourabh.sb1@gmail.com' }
