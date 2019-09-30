@@ -1,0 +1,6 @@
+framework module AutPod {
+  umbrella header "AutPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

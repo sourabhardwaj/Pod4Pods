@@ -1,0 +1,16 @@
+PODS:
+  - AutPod (0.1.0)
+
+DEPENDENCIES:
+  - AutPod (from `../`)
+
+EXTERNAL SOURCES:
+  AutPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AutPod: 6970de416bc1e6d8d8010498855d5a27e203feb4
+
+PODFILE CHECKSUM: abe66d2cd30384718ad75918215956b0ab947e56
+
+COCOAPODS: 1.6.1
