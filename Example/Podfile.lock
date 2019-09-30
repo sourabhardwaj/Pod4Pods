@@ -49,7 +49,7 @@ DEPENDENCIES:
   - AutPod (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - AWSAuthCore
     - AWSAuthUI
@@ -73,7 +73,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
-  AutPod: 13611623b3c22b5e0b87f8d78a445bcbcf6e1af6
+  AutPod: aadf47edc9596b35a62cd8fd0944c3a58f2d4c14
   AWSAuthCore: 65655f12187e81ba2864541b4a8abf41cfb4c4ba
   AWSAuthUI: 9ead11b53d71210c32354125f79b2ff23dfb9d09
   AWSCognito: bad1157e5134d865026a48687cc6f1c0d602024f
@@ -92,4 +92,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: abe66d2cd30384718ad75918215956b0ab947e56
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.1
