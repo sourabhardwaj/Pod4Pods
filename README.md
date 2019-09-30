@@ -22,7 +22,7 @@ pod 'AutPod'
 
 ## Author
 
-Sourabh Bhardwaj, sourabh_bhardwaj@taaltech.com
+Sourabh Bhardwaj, ssourabh.sb1@gmail.com
 
 ## License
 

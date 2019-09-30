@@ -1,15 +1,94 @@
 PODS:
-  - AutPod (0.1.0)
+  - Alamofire (4.7.3)
+  - AutPod (0.1.0):
+    - AWSAuthUI (= 2.9.0)
+    - AWSCognito (= 2.9.0)
+    - AWSCore (= 2.9.0)
+    - AWSMobileClient (= 2.9.0)
+    - AWSS3 (= 2.9.0)
+    - AWSUserPoolsSignIn (= 2.9.0)
+    - BarcodeScanner (= 4.1.3)
+    - CoreStore (= 6.1.0)
+    - IQKeyboardManagerSwift (= 6.2.0)
+    - SwiftyDropbox (= 5.0.0)
+    - XCGLogger (= 6.1.0)
+  - AWSAuthCore (2.9.0):
+    - AWSCore (= 2.9.0)
+  - AWSAuthUI (2.9.0):
+    - AWSAuthCore (= 2.9.0)
+    - AWSCore (= 2.9.0)
+  - AWSCognito (2.9.0):
+    - AWSCore (= 2.9.0)
+  - AWSCognitoIdentityProvider (2.9.0):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.9.0)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.9.0)
+  - AWSMobileClient (2.9.0):
+    - AWSAuthCore (= 2.9.0)
+    - AWSCognitoIdentityProvider (= 2.9.0)
+  - AWSS3 (2.9.0):
+    - AWSCore (= 2.9.0)
+  - AWSUserPoolsSignIn (2.9.0):
+    - AWSAuthCore (= 2.9.0)
+    - AWSCognitoIdentityProvider (= 2.9.0)
+  - BarcodeScanner (4.1.3)
+  - CoreStore (6.1.0)
+  - IQKeyboardManagerSwift (6.2.0)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - SwiftyDropbox (5.0.0):
+    - Alamofire (~> 4.7.3)
+  - XCGLogger (6.1.0):
+    - XCGLogger/Core (= 6.1.0)
+  - XCGLogger/Core (6.1.0):
+    - ObjcExceptionBridging
 
 DEPENDENCIES:
   - AutPod (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AWSAuthCore
+    - AWSAuthUI
+    - AWSCognito
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSS3
+    - AWSUserPoolsSignIn
+    - BarcodeScanner
+    - CoreStore
+    - IQKeyboardManagerSwift
+    - ObjcExceptionBridging
+    - SwiftyDropbox
+    - XCGLogger
 
 EXTERNAL SOURCES:
   AutPod:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AutPod: 6970de416bc1e6d8d8010498855d5a27e203feb4
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AutPod: 13611623b3c22b5e0b87f8d78a445bcbcf6e1af6
+  AWSAuthCore: 65655f12187e81ba2864541b4a8abf41cfb4c4ba
+  AWSAuthUI: 9ead11b53d71210c32354125f79b2ff23dfb9d09
+  AWSCognito: bad1157e5134d865026a48687cc6f1c0d602024f
+  AWSCognitoIdentityProvider: 31b3774e249ddd82b56722badd5ae9db13121540
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 4e3bb5d2c38bcc0811882cd8107ba7ff94bee9b9
+  AWSMobileClient: 10d8af23cd169d38fecccbc5908e15110fe09087
+  AWSS3: 09697145dad965a40d68fa4e57e8c473c463d1ce
+  AWSUserPoolsSignIn: ba286b056e0cb060866714dbaea63a03f939e6da
+  BarcodeScanner: fce1ad2b3f28286b1ab5091fe0979789618bee27
+  CoreStore: 90ffc53e2c666c7944e825fd03e8f015afb00d7f
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  SwiftyDropbox: 378b4425a2e8d0cb24c7b0f2e3af72bfbaaf1e73
+  XCGLogger: 7f7f43f15dfe3a305fa1342b7dc29af656289abd
 
 PODFILE CHECKSUM: abe66d2cd30384718ad75918215956b0ab947e56
 
