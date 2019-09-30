@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AutPod_Example' do
+  pod 'AutPod', :path => '../'
+
+  target 'AutPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
